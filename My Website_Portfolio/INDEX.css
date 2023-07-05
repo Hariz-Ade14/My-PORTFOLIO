@@ -1,0 +1,432 @@
+        html{
+            scroll-behavior: smooth;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+           
+        }
+        .navbar{
+            margin: 0px;
+            background-color: rgb(2, 2, 2);
+            height: 80px;
+            padding: 20px;
+        }
+        .navbar-brand{
+            float: left;
+            color: rgb(207, 207, 207);
+            margin-left: 20px;
+        }
+        h3{
+            font-weight: 100;
+            margin-top: 10px;
+        }
+        #MENU{
+            float: right;
+        }
+        ul{
+            margin: 10px 0px 10px 0px;
+            list-style-type: none;
+            background-color: rgb(0, 0, 0);
+        }
+        li{
+            display: inline;
+            margin-left: 20px;
+        }
+        a.nav-link{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: 100;
+        }
+        a.nav-link:hover{
+            text-decoration: underline;
+            color: rgb(255, 255, 255);
+            font-weight: 100;
+        }
+        .body{
+            background-image: url("C:/Users/Admin/Pictures/Camera Roll/codingimg.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 100px 0px 0px 0px;
+            padding: 10px;
+            height: 400px;
+            opacity: 0.9;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .body-cont{
+            margin-top: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .body-cont h1{
+            color: rgba(255, 255, 255, 0.918);
+            text-align: center;
+        }
+        .body-cont span{
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .body-cont p{
+            color: rgb(255, 243, 69);
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        .Message{
+            padding: 40px;
+            background-color: rgb(73, 73, 231);
+            display: flex;
+            justify-content: space-around;
+            color: white;
+        }
+        .Message h2{
+            margin: 0px 0px 0px 30px;
+            font-weight: lighter;
+        }
+        .whatsapp{
+            background-color: rgba(50, 65, 85, 0.507);
+            color: white;
+            border: none;
+            outline: none;
+            padding: 15px;
+            border-radius: 20px;
+            font-size: 20px;
+            width: 400px;
+        }
+        .About{
+            margin: 80px 60px 60px 60px;
+            padding: 30px;
+            border-left: 15px solid black;
+        }  
+        .about-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .about-content p{
+            font-size: 20px;
+            line-height: 40px;
+            text-transform: capitalize;
+            margin-left: 50px;
+            text-align: ;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .services{
+            margin: 30px 0px 30px 20px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            font-weight: lighter;
+            font-family: serif;
+        }
+        .card1{
+            width: 300px;
+            color: rgb(243, 65, 65);
+            background-color: rgba(255, 255, 255);
+            border-radius: 40px;
+            margin-bottom: 30px;
+            border: none; 
+            padding: 0px 30px;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+        }
+        .card2{
+            width: 300px;
+            color: rgb(136, 80, 201);
+            background-color: rgb(255, 255, 255);
+            border-radius: 40px;
+            margin-bottom: 30px;
+            border: none;
+            padding: 0px 30px;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .card3{
+            width: 300px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-radius: 40px;
+            margin-bottom: 30px;
+            border: none;
+            padding: 0px 30px;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .resume-body{
+            box-sizing: border-box;
+            margin: 50px 50px 0px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .body-1,.body-2{
+            padding: 30px;
+            width: 400px;
+            margin: 10px;
+            border-radius: 0px;
+            border: 1px solid palevioletred;
+        }
+        .body-3{
+            padding: 0px;
+           
+            border-radius: 0px;
+        }
+        .bgnin{
+            width: 400px;
+            padding: 20px;
+            background-color: none;
+            border: 1px solid palevioletred;
+        }
+        .myProjects{
+            width: 400px;
+            padding: 20px;
+            background-color: none;
+            border: 1px solid palevioletred;
+        }
+        .myProjects a{
+            text-decoration: none;
+            color: gray;
+        }
+        .resume-body h4{
+            text-decoration: underline;
+            color: rgb(56, 56, 56);
+        }
+        
+        .footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 40px 40px 0px 40px;
+            margin: 100px 0px 0px 0px;
+            height: 250px;
+        }
+        #CONTACT{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        svg{
+            margin: 0px 0px 0px 30px;
+            color: white;
+        }
+        svg:hover{
+            color: rgba(255, 255, 255, 0.26);
+        }
+        .footer-cont{
+            margin: 0px;
+        }
+        .footer-cont p{
+            font-weight: 100;
+            font-size: 20px;
+            margin: 30px 30px 0px 30px;
+            text-align: center;
+            font-family: 'Lucida Sans', Arial, sans-serif;
+        }
+    
+/*FOR MEDIUM SCREENs*/
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    
+    .projects{
+        background-color: rgba(0, 0, 0, 0.836);
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 13px 3px rgba(128, 128, 128, 0.356);
+    }
+    #projects{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    #projects img{
+        border-radius: 0px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .navbar{
+        margin: 0px;
+        background-color: rgb(0, 0, 0);
+        height: 60px;
+        padding: 10px;
+    }
+    .navbar-brand{
+        float: left;
+        color: rgb(207, 207, 207);
+        margin: 0px 5px 5px 5px;
+        font-family: cursive;
+        font-weight: lighter;
+    }
+    .body{
+        background-image: url("C:/Users/Admin/Pictures/Camera Roll/codingimg.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        margin: 80px 0px 0px 0px;
+        padding: 10px;
+        height: 400px;
+        opacity: 0.9;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .body-cont{
+        margin-top: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 25px;
+    }
+    .body-cont h1{
+        color: white;
+    }
+    .Message{
+        padding: 40px;
+        background-color: rgb(73, 73, 231);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        flex-direction: column;
+    }
+    .Message h2{
+        margin: 0px 0px 10px 30px;
+        font-weight: lighter;
+    }
+    .whatsapp{
+        background-color: rgba(50, 65, 85, 0.507);
+        color: white;
+        border: none;
+        outline: none;
+        padding: 15px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 200px;
+    }
+    .About{
+        border: none;
+        margin: 40px 0px 0px 0px;
+        padding: 0px; 
+    }  
+    .About h3{
+        font-size: 20px;
+    }
+    .about-content{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .about-content p{
+        font-size: 15px;
+        line-height: 40px;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .services{
+        margin: 10px 0px 0px 0px;
+        padding: 0px 20px 20px 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1{
+        width: 280px;
+        color: rgb(243, 65, 65);
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px;
+        margin-bottom: 10px;
+        border: none; 
+        padding: 50px 30px;
+    }
+    .card2{
+        width: 280px;
+        color: rgb(136, 80, 201);
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px;
+        margin-bottom: 10px;
+        border: none;
+        padding: 50px 30px;
+       
+    }
+    .card3{
+        width: 280px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border-radius: 0px;
+        margin-bottom: 30px;
+        border: none;
+        padding: 50px 30px;
+       
+    }
+    .resume-body{
+        margin: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .body-1,.body-2{
+        padding: 30px;
+        width: 300px;
+        border-radius: 0px;
+        margin: 0px;
+        border: 1px solid palevioletred;
+    }
+    .body-3{
+        padding: 0px;
+        width: 300px;
+        border-radius: 0px;
+    }
+    .bgnin{
+        width: 300px;
+        padding: 20px;
+        background-color: none;
+        border: 1px solid palevioletred;
+    }
+    .myProjects{
+        width: 300px;
+        padding: 20px;
+        background-color: none;
+        border: 1px solid palevioletred;
+    }
+    .resume-body h4{
+        text-decoration: underline;
+        color: rgb(56, 56, 56);
+    }
+  
+    svg{
+        margin: 0px 0px 0px 20px;
+        color: white;
+    }
+    .footer-cont p{
+        font-weight: 100;
+        font-size: 15px;
+        margin: 30px;
+        text-align: center;
+        font-family: 'Lucida Sans', Arial, sans-serif;
+    }
+
+}
